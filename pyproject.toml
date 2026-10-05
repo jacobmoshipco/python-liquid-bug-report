@@ -1,0 +1,14 @@
+[project]
+name = "liquid-bug-report"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "python-liquid==2.3.3",
+]
+
+[project.scripts]
+liquid-bug-report = "liquid_bug_report:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
